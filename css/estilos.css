@@ -1,0 +1,78 @@
+body{
+  font-family: 'Outfit', sans-serif;
+  background-image: url("https://github.com/luddias/EngeneLand-Website/blob/main/img/background-min.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 20px 0;
+  margin: 0;
+
+}
+
+.logo {
+  width: 180px;
+}
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  font-size: 110px;
+}
+
+.descricao{
+  width: 60%;
+  color: rgb(183, 183, 183);
+  text-align: center
+}
+
+.botoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  gap: 30px
+}
+
+.btn{
+  font-family:  'Outfit', sans-serif;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+
+}
+.designer_btn{
+  background-color: rgba(106, 106, 106, 0);
+  color: rgb(255, 255, 0);
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+.influencer_btn{
+  background-color: rgba(106, 106, 106, 0);
+  color: rgb(255, 162, 0);
+  border: 2px solid rgb(255, 162, 0);
+  border-radius: 10px;
+}
+
+.redes{
+  color: white;
+}
